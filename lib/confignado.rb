@@ -52,3 +52,5 @@ module Confignado
     end
   end
 end
+
+require_relative 'confignado/adapters/init'

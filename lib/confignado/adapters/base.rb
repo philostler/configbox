@@ -1,6 +1,6 @@
 module Confignado
   module Adapters
-    module Base
+    class Base
       def initialize(configuration)
         @configuration = configuration
       end
