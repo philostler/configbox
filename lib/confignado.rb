@@ -20,6 +20,14 @@ module Confignado
         deep_merge_hashes composite, layer
       end
       @composite.freeze
+
+      process
+    end
+
+    def process
+      @composite.each_pair do |key, value|
+        @adapters[key.to_sym].new(value).process
+      end
     end
 
     def register(adapter)
