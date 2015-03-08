@@ -21,6 +21,12 @@ module Confignado
       end
       @composite.freeze
     end
+
+    def register(adapter)
+      @adapters = {} unless @adapters
+      @adapters[adapter.key] = adapter
+    end
+
     private
 
     def deep_merge_hashes(hash, other_hash)
