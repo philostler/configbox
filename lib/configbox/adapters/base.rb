@@ -1,4 +1,4 @@
-module Confignado
+module Configbox
   module Adapters
     class Base
       def initialize(configuration)

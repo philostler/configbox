@@ -1,15 +1,15 @@
 # encoding: utf-8
-require File.expand_path('../lib/confignado/version', __FILE__)
+require File.expand_path('../lib/configbox/version', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = 'confignado'
-  s.version     = Confignado::VERSION
+  s.name        = 'configbox'
+  s.version     = Configbox::VERSION
   s.platform    = Gem::Platform::RUBY
   s.author      = 'Phil Ostler'
   s.email       = 'github@philostler.com'
-  s.homepage    = 'https://github.com/philostler/confignado'
-  s.summary     = ''
-  s.description = ''
+  s.homepage    = 'https://github.com/philostler/configbox'
+  s.summary     = 'Ruby configuration encapsulated'
+  s.description = 'Ruby configuration encapsulated; expressed through adapters'
   s.license     = 'MIT'
 
   s.add_development_dependency 'coveralls', '~> 0.7', '>= 0.7.0'
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.files = Dir['.gitignore'] +
             Dir['Gemfile'] +
             Dir['README.md'] +
-            Dir['confignado.gemspec'] +
+            Dir['configbox.gemspec'] +
             Dir['**/*.rb']
   s.require_paths = ['lib']
 end

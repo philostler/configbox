@@ -1,6 +1,6 @@
-module Confignado
+module Configbox
   module Adapters
-    class I18n < Confignado::Adapters::Base
+    class I18n < Configbox::Adapters::Base
       def self.key
         :i18n
       end
@@ -12,4 +12,4 @@ module Confignado
   end
 end
 
-Confignado.register Confignado::Adapters::I18n
+Configbox.register Configbox::Adapters::I18n

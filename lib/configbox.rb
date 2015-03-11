@@ -1,4 +1,4 @@
-module Confignado
+module Configbox
   class << self
     attr_writer :environment, :file_layers
 
@@ -53,4 +53,4 @@ module Confignado
   end
 end
 
-require_relative 'confignado/adapters/init'
+require_relative 'configbox/adapters/init'

@@ -1,6 +1,6 @@
-module Confignado
+module Configbox
   module Adapters
-    class ActiveModelSerializers < Confignado::Adapters::Base
+    class ActiveModelSerializers < Configbox::Adapters::Base
       def self.key
         :active_model_serializers
       end
@@ -13,4 +13,4 @@ module Confignado
   end
 end
 
-Confignado.register Confignado::Adapters::ActiveModelSerializers
+Configbox.register Configbox::Adapters::ActiveModelSerializers

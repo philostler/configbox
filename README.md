@@ -1,2 +1,2 @@
-# Confignado
-***Ruby configuration that consumes everything, enough said!***
+# ConfigBox
+***Ruby configuration encapsulated; expressed through adapters***
