@@ -1,6 +1,6 @@
-module Configbox
+module ConfigBox
   module Adapters
-    class ActiveRecord < Configbox::Adapters::Base
+    class ActiveRecord < ConfigBox::Adapters::Base
       def self.key
         :active_record
       end
@@ -15,16 +15,16 @@ module Configbox
         ::ActiveRecord::Base.logger = Logger.new(File.open @configuration['log'], 'a')
         ::ActiveRecord::Base.raise_in_transactional_callbacks = @configuration['raise_in_transactional_callbacks']
 
-        ::ActiveRecord::Base.establish_connection Configbox.environment.to_sym
+        ::ActiveRecord::Base.establish_connection ConfigBox.environment.to_sym
       end
 
       private
 
       def process_configuration(configuration)
-        ::ActiveRecord::Base.configurations[Configbox.environment] = configuration
+        ::ActiveRecord::Base.configurations[ConfigBox.environment] = configuration
       end
     end
   end
 end
 
-Configbox.register Configbox::Adapters::ActiveRecord
+ConfigBox.register ConfigBox::Adapters::ActiveRecord

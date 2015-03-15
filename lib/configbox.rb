@@ -1,4 +1,4 @@
-module Configbox
+module ConfigBox
   class << self
     attr_writer :environment, :file_layers
 

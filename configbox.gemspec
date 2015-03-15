@@ -3,7 +3,7 @@ require File.expand_path('../lib/configbox/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'configbox'
-  s.version     = Configbox::VERSION
+  s.version     = ConfigBox::VERSION
   s.platform    = Gem::Platform::RUBY
   s.author      = 'Phil Ostler'
   s.email       = 'github@philostler.com'

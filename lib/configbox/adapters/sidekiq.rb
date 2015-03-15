@@ -1,7 +1,7 @@
-module Configbox
+module ConfigBox
   module Adapters
-    class Sidekiq < Configbox::Adapters::Base
       def key
+    class Sidekiq < ConfigBox::Adapters::Base
         :sidekiq
       end
 
@@ -27,4 +27,4 @@ module Configbox
   end
 end
 
-Configbox.register Configbox::Adapters::Sidekiq
+ConfigBox.register ConfigBox::Adapters::Sidekiq

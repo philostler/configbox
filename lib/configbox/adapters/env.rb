@@ -1,6 +1,6 @@
-module Configbox
+module ConfigBox
   module Adapters
-    class Env < Configbox::Adapters::Base
+    class Env < ConfigBox::Adapters::Base
       def self.key
         :env
       end
@@ -12,4 +12,4 @@ module Configbox
   end
 end
 
-Configbox.register Configbox::Adapters::Env
+ConfigBox.register ConfigBox::Adapters::Env
