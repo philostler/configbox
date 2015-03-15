@@ -6,7 +6,7 @@ module ConfigBox
       end
 
       def process
-        //
+        #
       end
     end
   end
