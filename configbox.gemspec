@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = 'github@philostler.com'
   s.homepage    = 'https://github.com/philostler/configbox'
   s.summary     = 'Ruby configuration encapsulated'
-  s.description = 'Ruby configuration encapsulated; expressed through adapters'
+  s.description = 'Ruby configuration encapsulated, expressed through adapters'
   s.license     = 'MIT'
 
   s.add_development_dependency 'coveralls', '~> 0.7', '>= 0.7.0'

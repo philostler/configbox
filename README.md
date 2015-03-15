@@ -6,7 +6,7 @@
 [![Gemnasium][Gemnasium Badge]][Gemnasium]
 
 
-***Ruby configuration encapsulated; expressed through adapters***
+***Ruby configuration encapsulated, expressed through adapters***
 
 [Code Climate]: https://codeclimate.com/github/philostler/configbox
 [Code Climate Badge]: https://codeclimate.com/github/philostler/configbox/badges/gpa.svg
