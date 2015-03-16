@@ -12,6 +12,8 @@ Gem::Specification.new do |s|
   s.description = 'Ruby configuration encapsulated, expressed through adapters'
   s.license     = 'MIT'
 
+  s.add_development_dependency 'activesupport', '~> 4.0'
+
   s.add_development_dependency 'coveralls', '~> 0.7', '>= 0.7.0'
   s.add_development_dependency 'fuubar', '~> 2.0', '>= 2.0.0'
 

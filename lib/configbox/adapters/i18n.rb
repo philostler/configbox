@@ -6,7 +6,7 @@ module ConfigBox
       end
 
       def process
-        ::I18n.load_path += Dir[@configuration['load_path']]
+        ::I18n.load_path += Dir[@configuration[:load_path]]
       end
     end
   end

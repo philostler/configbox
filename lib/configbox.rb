@@ -1,3 +1,6 @@
+require 'active_support/core_ext/hash/deep_merge'
+require 'active_support/core_ext/hash/keys.rb'
+
 module ConfigBox
   class << self
     attr_writer :environment, :file_layers
@@ -17,8 +20,9 @@ module ConfigBox
       end
 
       @composite = configuration_layers.reduce do |composite, layer|
-        deep_merge_hashes composite, layer
+        composite.deep_merge layer
       end
+      @composite.deep_symbolize_keys!
       @composite.freeze
 
       process
@@ -33,22 +37,6 @@ module ConfigBox
     def register(adapter)
       @adapters = {} unless @adapters
       @adapters[adapter.key] = adapter
-    end
-
-    private
-
-    def deep_merge_hashes(hash, other_hash)
-      other_hash.each_pair do |key, value|
-        this_value = hash[key]
-
-        hash[key] = if this_value.is_a?(Hash) && value.is_a?(Hash)
-          this_value.deep_merge(value)
-        else
-          value
-        end
-      end
-
-      hash
     end
   end
 end

@@ -6,8 +6,8 @@ module ConfigBox
       end
 
       def process
-        ActiveModel::Serializer.root = @configuration['root']
-        ActiveModel::ArraySerializer.root = @configuration['array_root']
+        ActiveModel::Serializer.root = @configuration[:root]
+        ActiveModel::ArraySerializer.root = @configuration[:array_root]
       end
     end
   end
