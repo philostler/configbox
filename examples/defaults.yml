@@ -1,0 +1,21 @@
+active_model_serializers:
+  root: false
+  array_root: false
+active_record:
+  adapter: postgresql
+  database: database
+  host: database
+  log: logs/database.log
+  raise_in_transactional_callbacks: true
+  user: user
+env:
+  KEY: VALUE
+i18n:
+  load_path: config/locales/*.yml
+sidekiq:
+  client:
+    redis:
+      url: redis://redis:6379/12
+  server:
+    redis:
+      url: redis://redis:6379/12
