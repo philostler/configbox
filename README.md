@@ -1,9 +1,9 @@
-# ConfigBox [![GitHub Forks][GitHub Forks Shield]]() [![GitHub Stars][GitHub Stars Shield]]() [![GitHub Issues][GitHub Issues Shield]]()
-[![RubyGems][RubyGems Shield]]()
-[![Travis CI][Travis CI Shield]]()
-[![Code Climate][Code Climate Shield]]()
-[![Coveralls][Coveralls Shield]]()
-[![Gemnasium][Gemnasium Shield]]()
+# ConfigBox ![GitHub Forks][GitHub Forks Shield] ![GitHub Stars][GitHub Stars Shield] ![GitHub Issues][GitHub Issues Shield]
+[![RubyGems][RubyGems Shield]][RubyGems]
+[![Travis CI][Travis CI Shield]][Travis CI]
+[![Code Climate][Code Climate Shield]][Code Climate]
+[![Coveralls][Coveralls Shield]][Coveralls]
+[![Gemnasium][Gemnasium Shield]][Gemnasium]
 
 ***Ruby configuration encapsulated, expressed through adapters***
 
