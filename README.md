@@ -1,4 +1,4 @@
-# ConfigBox ![GitHub Forks][GitHub Forks Shield] ![GitHub Stars][GitHub Stars Shield] ![GitHub Issues][GitHub Issues Shield]
+# ConfigBox
 [![RubyGems][RubyGems Shield]][RubyGems]
 [![Travis CI][Travis CI Shield]][Travis CI]
 [![Code Climate][Code Climate Shield]][Code Climate]
@@ -15,10 +15,6 @@
 
 [Gemnasium]: https://gemnasium.com/philostler/configbox
 [Gemnasium Shield]: https://img.shields.io/gemnasium/philostler/configbox.svg?style=flat-square
-
-[GitHub Forks Shield]: https://img.shields.io/github/forks/philostler/configbox.svg?style=flat-square
-[GitHub Stars Shield]: https://img.shields.io/github/stars/philostler/configbox.svg?style=flat-square
-[GitHub Issues Shield]: https://img.shields.io/github/issues/philostler/configbox.svg?style=flat-square
 
 [RubyGems]: https://rubygems.org/gems/configbox
 [RubyGems Shield]: https://img.shields.io/gem/dv/configbox/1.0.0.alpha.svg?style=flat-square
