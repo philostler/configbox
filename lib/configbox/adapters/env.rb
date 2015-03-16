@@ -6,7 +6,9 @@ module ConfigBox
       end
 
       def process
-        #
+        @configuration.each_pair do |key, value|
+          ENV[key] = value
+        end
       end
     end
   end
