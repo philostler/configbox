@@ -1,4 +1,4 @@
-# ConfigBox
+# ![Emblem][Emblem] ConfigBox
 [![RubyGems][RubyGems Shield]][RubyGems]
 [![Travis CI][Travis CI Shield]][Travis CI]
 [![Code Climate][Code Climate Shield]][Code Climate]
@@ -12,6 +12,8 @@
 
 [Coveralls]: https://coveralls.io/r/philostler/configbox
 [Coveralls Shield]: https://img.shields.io/coveralls/philostler/configbox/develop.svg?style=flat-square
+
+[Emblem]: https://cloud.githubusercontent.com/assets/244198/6697394/2d144682-cce8-11e4-8743-67c482344d84.png
 
 [Gemnasium]: https://gemnasium.com/philostler/configbox
 [Gemnasium Shield]: https://img.shields.io/gemnasium/philostler/configbox.svg?style=flat-square
